@@ -1,0 +1,17 @@
+<div style="font-size: 30px">
+  <strong>YourCalculator</strong>
+</div>
+<div>
+  <label>Name:</label>
+  <input #name>
+  <button (click)="greeting(name.value)">Enter</button>
+</div>
+<div>
+  <div>
+      <label>{{ nameGreeting }}</label>
+  </div>
+  <div>
+    <label>Enter your values and select the operator, then click "Calculate"</label>
+  </div>
+</div>
+
